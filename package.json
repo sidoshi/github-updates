@@ -1,0 +1,21 @@
+{
+  "name": "github-updates",
+  "description": "Telegram Bot for receiving Notification Updates from Github",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro-bot -d ${NOW_URL} src"
+  },
+  "author": {
+    "name": "Siddharth Doshi",
+    "email": "sidoshi510@gmail.com",
+    "url": "https://sid.sh"
+  },
+  "repository": "https://github.com/sidoshi/github-updates",
+  "dependencies": {
+    "gh-valid": "^1.1.0",
+    "ghnp": "^0.1.0",
+    "micro-bot": "^2.2.4"
+  }
+}
